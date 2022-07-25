@@ -11,7 +11,7 @@ Personal Portfolio. A single page application built using React Js and hosted on
 Portfolio uses the following tech:
 
 - [React Js] - Progressive JavaScript Framework
-- [Material UI] - React implementation of Bootstrap
+- [Material UI] - React Component Library
 - [Node.js] - Backend JavaScript runtime
 - [Express] - Node.js network framework
 
