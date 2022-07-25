@@ -1,0 +1,101 @@
+body {
+  background-color: #D8DAD3;
+  color: '#4A4A48';
+  transition: all 300ms;
+  scrollbar-width: none;
+}
+
+
+.content {
+  /* background: coral; */
+  grid-column: 1 / span 3;
+  transition: opacity 300ms, transform 1000ms;
+}
+
+.parent {
+  z-index: 0;
+  display: grid;
+  height: calc(100vh - 3.5rem);
+  /* no scroll bars if few content */
+  grid-template-rows: 1fr auto;
+  grid-template-columns: 1fr;
+}
+
+.footerStyling {
+  background-color: #4A4A48;
+  /* padding: 1rem; */
+  text-align: center;
+}
+
+footer {
+  background-color: #4A4A48;
+  grid-column: 1;
+  grid-row-start: 3;
+}
+
+.iconCircle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+  color: #F1F2EB;
+  font-size: 2.5rem;
+  background-color: #4A4A48;
+  padding: 0.5rem;
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+}
+
+.iconCircle:hover {
+  background-color: #566246;
+}
+
+header {
+  height: 3.5rem;
+  z-index: 5;
+  /* background: lightpink; */
+  /* padding: 2rem; */
+  grid-column: 1 / 4;
+}
+
+.page {
+  z-index: 0;
+  position: absolute;
+  /* left: 15px;
+  right: 15px; */
+}
+
+.page-enter {
+  opacity: 0;
+  /* transform: translateX(50vh); */
+}
+
+.page-enter-active {
+  opacity: 1;
+  /* transform: translateX(0vh); */
+  transition: opacity 300ms, transform 300ms;
+}
+
+.page-exit {
+  opacity: 1;
+  height: -10%;
+  /* transform: scale(.1); */
+  /* transform: translateX(0vh); */
+  transition: opacity 300ms, transform 300ms;
+}
+
+.page-exit-active {
+  opacity: 0;
+  /* transform: translateX(20vh); */
+  height: -50%;
+  transition: opacity 000ms, transform 300ms;
+}
+
+body::-webkit-scrollbar {
+  width: 0em;
+}
+
+
+/* https://coolors.co/f1f2eb-d8dad3-a4c2a5-566246-4a4a48 */
+ /* https://www.nngroup.com/articles/footers/ */
