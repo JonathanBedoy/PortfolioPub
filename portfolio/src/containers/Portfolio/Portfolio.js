@@ -8,7 +8,7 @@ const Portfolio = (props) => {
     {
       name: 'Nia Lashes By Denise',
       teaser:
-        "E-commerce website for eyelashe extensions, branded as 'Nia Lashes By Denise' using the PayPal API for transactions.",
+        "E-commerce website for eyelashe extensions, branded as 'Nia Lashes By Denise'.",
       description:
         'This e-commerce website allows the user to add eyelash extensions to their cart and checkout using PayPal. Along with being able to take a profound look at the eyelash being sold. This single-page applictation was built using VueJs as the front end JavaScript framework and styled using Bootstrap components. The back end serves the web app using express hosted on an AWS Lightsail Instance. As well as using NeDB as a MongoDB-like database.',
       websiteLink: 'https://nialashesbydenise.com',
