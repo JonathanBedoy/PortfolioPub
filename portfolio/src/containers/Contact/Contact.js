@@ -74,7 +74,7 @@ const Contact = (props) => {
                 style={{
                   color: '#4A4A48',
                 }}
-                href='https://www.linkedin.com/in/jonathan-bedoy-65a7b8175/'>
+                href='https://www.linkedin.com/in/jonathanbedoy/'>
                 linkedin.com
               </a>
             </ContactModule>

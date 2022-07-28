@@ -82,7 +82,7 @@ const FooterBar = (props) => {
                   style={{
                     color: '#A4C2A5',
                   }}
-                  href='https://www.linkedin.com/in/jonathan-bedoy-65a7b8175/'
+                  href='https://www.linkedin.com/in/jonathanbedoy/'
                   target='_blank'
                   rel='noreferrer'>
                   <IconCircle
