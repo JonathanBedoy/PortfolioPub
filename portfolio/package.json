@@ -23,7 +23,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "postbuild": "RMDIR /S /Q \"../BackEnd/public\" && move build \"../BackEnd/public\"",
+    "postbuild-tmp": "RMDIR /S /Q \"../BackEnd/public\" && move build \"../BackEnd/public\"",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
